@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 364
+  Height = 240
+  Top = 237
+  Width = 320
+  Caption = 'Марафон'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.8.0'
+  object Edit1: TEdit
+    Left = 19
+    Height = 21
+    Top = 21
+    Width = 80
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 21
+    Top = 21
+    Width = 80
+    OnKeyPress = Edit2KeyPress
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 80
+    Height = 21
+    Top = 64
+    Width = 80
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 85
+    Height = 25
+    Top = 120
+    Width = 75
+    Caption = 'Расчитать'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end
