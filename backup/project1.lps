@@ -18,17 +18,18 @@
         <Filename Value="unit1.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="15"/>
-        <CursorPos X="10" Y="46"/>
+        <TopLine Value="54"/>
+        <CursorPos X="23" Y="61"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="11" HistoryIndex="10">
       <Position1>
         <Filename Value="unit1.pas"/>
       </Position1>
@@ -36,6 +37,42 @@
         <Filename Value="unit1.pas"/>
         <Caret Line="45" TopLine="15"/>
       </Position2>
+      <Position3>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="53" TopLine="20"/>
+      </Position3>
+      <Position4>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="65" Column="5" TopLine="32"/>
+      </Position4>
+      <Position5>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="73" Column="5" TopLine="41"/>
+      </Position5>
+      <Position6>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="74" Column="5" TopLine="42"/>
+      </Position6>
+      <Position7>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="75" Column="5" TopLine="43"/>
+      </Position7>
+      <Position8>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="76" Column="5" TopLine="44"/>
+      </Position8>
+      <Position9>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="84" Column="5" TopLine="51"/>
+      </Position9>
+      <Position10>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="58" Column="23" TopLine="51"/>
+      </Position10>
+      <Position11>
+        <Filename Value="unit1.pas"/>
+        <Caret Line="60" Column="23" TopLine="53"/>
+      </Position11>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

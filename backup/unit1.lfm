@@ -1,17 +1,18 @@
 object Form1: TForm1
   Left = 364
-  Height = 240
-  Top = 237
-  Width = 320
+  Height = 318
+  Top = 159
+  Width = 394
   Caption = 'Марафон'
-  ClientHeight = 240
-  ClientWidth = 320
+  ClientHeight = 318
+  ClientWidth = 394
   LCLVersion = '2.0.8.0'
   object Edit1: TEdit
     Left = 19
     Height = 21
     Top = 21
     Width = 80
+    OnKeyPress = Edit1KeyPress
     TabOrder = 0
   end
   object Edit2: TEdit
@@ -19,6 +20,7 @@ object Form1: TForm1
     Height = 21
     Top = 21
     Width = 80
+    OnKeyPress = Edit2KeyPress
     TabOrder = 1
   end
   object Edit3: TEdit
@@ -37,5 +39,59 @@ object Form1: TForm1
     Caption = 'Расчитать'
     OnClick = Button1Click
     TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 104
+    Height = 13
+    Top = 25
+    Width = 14
+    Caption = 'Км'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 240
+    Height = 13
+    Top = 24
+    Width = 24
+    Caption = 'Мин'
+    ParentColor = False
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 175
+    Top = 0
+    Width = 290
+    Lines.Strings = (
+      'Разработал программу ,студент группы ИР-19-30 Улыбин Дмитрий'
+    )
+    TabOrder = 4
+    Visible = False
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 25
+    Top = 120
+    Width = 75
+    Caption = 'Назад'
+    OnClick = Button2Click
+    TabOrder = 5
+    Visible = False
+  end
+  object Button3: TButton
+    Left = 312
+    Height = 25
+    Top = 48
+    Width = 75
+    Caption = 'Об авторе'
+    OnClick = Button3Click
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Left = 168
+    Height = 13
+    Top = 72
+    Width = 17
+    Caption = 'м/c'
+    ParentColor = False
   end
 end
